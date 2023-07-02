@@ -1,0 +1,31 @@
+// container 
+.container {
+    position: relative;
+    width: 1280px;
+    margin: 0 auto;
+    // background-color: rgba(0,0,0,.2);
+}
+
+/* bg */
+.gray {
+    background-color: #f6f6f6;
+}
+
+// blind
+.blind {
+    position: absolute;
+    clip: rect(0,0,0,0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+
+//ir
+.ir {
+    display: block;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -9999px;
+}
